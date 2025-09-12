@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('Nidaan-Logo.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;    
+}
+
+.login-box {
+    background-color:white;
+    width: 400px;
+    text-align: center;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#Forget{
+    margin: 2px;
+}
+#Forget:hover{
+    background-color: aquamarine;
+}
+
+#submit{
+    margin: 2px;
+}
+#submit:hover{
+    background-color: aquamarine;
+}
+
+
+#home{
+    margin: 2px;
+}
+#home:hover{
+    background-color: aquamarine;
+}
