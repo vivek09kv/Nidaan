@@ -56,6 +56,30 @@ img{
     border-radius: 5px;
 }
 
+.TestTubes{
+    height: 800px;
+    width: 700px;
+    display: block;
+    border: 2px solid skyblue;
+    margin: auto;
+}
+
+.Services{
+    height: 600px;
+    width: fit-content;
+    display: block;
+    border: 2px solid skyblue;
+    margin: auto;
+}
+
+.Contact{
+    height: 600px;
+    width: fit-content;
+    display: block;
+    border: 2px solid skyblue;
+    margin: auto;
+}
+
 @media (max-width: 600px) {
   .navbar ul {
     flex-direction: column;
