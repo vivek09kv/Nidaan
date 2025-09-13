@@ -78,14 +78,8 @@ Nidaan/
 
 ## 📸 Screenshots
 
-*(Add screenshots of homepage and form page here once available)*
-
 ---
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b4eaa447-f1fb-4974-be1e-b53112943633" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c6ceddc-6d95-4d86-a9c3-9509992add88" />
-
----
+<img width="1912" height="981" alt="login  page" src="https://github.com/user-attachments/assets/6bb8b9b1-3d6a-4d97-8a94-f37a56ca87a3" />
+<img width="1918" height="917" alt="homepage" src="https://github.com/user-attachments/assets/bed1fa93-dc97-4fb2-8640-303d371f3c2c" />
 
 
