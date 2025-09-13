@@ -80,6 +80,10 @@ img{
     margin: auto;
 }
 
+#Contact{
+    text-align: center;
+}
+
 @media (max-width: 600px) {
   .navbar ul {
     flex-direction: column;
