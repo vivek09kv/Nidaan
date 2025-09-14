@@ -1,152 +1,117 @@
-/* Body background */
-body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Nidaan-Logo.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
+.h1-wrapper {
+    background-color: coral;
+    padding: 30px;
+    text-align: center;
 }
 
-/* Heading */
 h1 {
-    position: absolute;
-    top: 20px;
+    color: blue;
     text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    color: black;
+
 }
 
-/* Login box styling */
-.login-box {
-    background-color: blanchedalmond;
-    width: 400px;
-    max-width: 90%;
-    text-align: center;
-    border: 3px solid black;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
-}
+.img {
 
-/* Login title */
-.login-box h3 {
-    margin: 0 0 10px;
-    font-size: 20px;
-}
-
-/* Input fields container */
-.form-group {
     display: flex;
-    align-items: center;
-    margin: 12px 0;
     justify-content: flex-start;
+    align-items: center;
 }
 
-/* Labels with fixed width */
-.form-group label {
-    font-weight: bold;
-    font-size: 16px;
-    margin-right: 10px;
-    width: 110px;   /* Keeps inputs aligned */
-    text-align: right;
+img {
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    /* margin-left: 50px; */
 }
 
-/* Input boxes */
-.form-group input {
-    flex: 1;
-    padding: 8px;
-    border: 1px solid #bbb;
-    border-radius: 6px;
-    box-shadow: inset 0 2px 5px rgba(0,0,0,0.05);
-    transition: 0.3s;
+.para {
+    font-size: 18px;
+    /* margin-right: 50px; */
 }
 
-.form-group input:focus {
-    border-color: #4CAF50;
-    outline: none;
-    box-shadow: 0 0 5px #4CAF50;
-}
-
-/* Buttons container */
-.button-group {
+.navbar ul {
+    list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap: 10px;
-    margin-top: 15px;
+    padding: 0;
+    margin: 0;
+    background: coral;
 }
 
-/* Buttons style */
-button,
-input[type="submit"] {
-    padding: 8px 14px;
-    border: none;
-    border-radius: 6px;
-    background-color: #e6e6e6;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-size: 15px;
+.navbar ul li {
+    margin: 0 15px;
+    font-size: large;
 }
 
-button:hover,
-input[type="submit"]:hover {
-    background-color: aquamarine;
+/* Links */
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
 }
 
-/* Guest button full width */
-#home {
-    margin-top: 15px;
-    width: 100%;
-    background-color: #e6e6e6;
+.navbar ul li a:hover {
+    background: #555;
+    border-radius: 5px;
 }
 
-#home:hover {
-    background-color: aquamarine;
+.TestTubes {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid skyblue;
+    margin: auto;
 }
 
-/* Mobile responsive */
-@media (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-    }
+.Services {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid skyblue;
+    margin: auto;
+}
 
-    h1 {
-        font-size: 1.5rem;
-    }
+.Contact {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid skyblue;
+    margin: auto;
+}
 
-    .login-box {
-        width: 90%;
-    }
+#Contact {
+    text-align: center;
+}
 
-    .form-group {
+@media (max-width: 600px) {
+    .navbar ul {
         flex-direction: column;
         align-items: flex-start;
     }
+}
 
-    .form-group label {
-        text-align: left;
-        width: auto;
-        margin-bottom: 5px;
-    }
-
-    .form-group input {
-        width: 100%;
-    }
-
-    .button-group {
+@media (max-width: 600px) {
+    .img {
+        height: auto;
         flex-direction: column;
+        align-items: flex-start;
+        background-attachment: scroll;
+        /* prevent mobile issue */
+        background-size: cover;
+        /* keep image full size */
+        background-position: center;
     }
+}
 
-    .button-group button,
-    .button-group input[type="submit"],
-    #home {
-        width: 100%;
+@media (max-width: 600px) {
+    .TestTubes .Services .Contact {
+        background-attachment: scroll;
+        /* prevent mobile issue */
+        background-size: cover;
+        /* keep image full size */
+        background-position: center;
+        /* center it */
     }
 }
